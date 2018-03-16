@@ -53,6 +53,7 @@ def main():
 			src_count += src_len
 			hyp_count += hyp_len
 			edit_count += dp[src_len][hyp_len]
+            
 
 	print("Statistics")
 	print("Source Size \t{0}".format(src_count))
